@@ -22,10 +22,14 @@ A high CLS score can indicate a poor user experience and can also be a drag on y
 
 
 <li>example of CLS with image</li>
+<a href='https://github.com/NathanKr/cumulative-layout-shift-playground/releases/tag/0.1'>tag 0.1</a> - check home page with image element without width\height delayed by 0.5. The p below it is shifted down once the image appears</a>
+This is the <a href='https://cumulative-layout-shift-playground-g1yppdxz3.vercel.app/'>page on vercel</a>
+
+<p>SUPER STRANGE why i get here cls of zero !!!!!! in page speed insight</p>
 
 <li>how to fix CLS with image</li>
-assign height and width for image (but this is not enough)
-<li>why should you specify width and height for img element</li>
+ALWAYS !!! assign height and width for image (but this is not enough)
+
 <li>example for solution</li>
 <li>Web Core Vital with and with CLS issue</li>
 </ul>

@@ -7,7 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     // Set a delay of 1000 milliseconds (1 second)
-    const delay = 500;
+    const delay = 0;
 
     // After the delay, update the state to show the image
     const timeoutId = setTimeout(() => {
@@ -33,7 +33,7 @@ export default function Home() {
           reprehenderit eius consequatur quidem eaque aliquam illum perspiciatis
           hic omnis voluptatibus alias!
         </p>
-        {showImage && <img src='/images/lion-3372720_1280.jpg'/>}
+        {showImage && <img width='1280' height='833' src='/images/lion-3372720_1280.jpg'/>}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
           est laudantium dolor quod corporis voluptatum tempore optio, eveniet
